@@ -10,3 +10,6 @@ for char in input_string:
 print("String after replacing 'a' with 'e':", output_string)
 
 
+# input_string = input("Enter a string: ")
+# output_string = input_string.replace('a', 'e')
+# print("String after replacing 'a' with 'e':", output_string)
