@@ -9,3 +9,10 @@ if is_substring_present(main_string, substring):
 else:
     print("No, the substring is not present in the main string.")
 
+# main_string = input("Enter the main string: ")
+# substring = input("Enter the substring to search for: ")
+
+# if substring in main_string:
+#     print("Yes, the substring is present in the main string.")
+# else:
+#     print("No, the substring is not present in the main string.")
