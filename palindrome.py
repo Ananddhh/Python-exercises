@@ -13,3 +13,13 @@ if is_palindrome(input_string):
     print("Yes, the string is a palindrome.")
 else:
     print("No, the string is not a palindrome.")
+
+
+# def is_palindrome(input_string):
+#     return input_string == input_string[::-1]
+
+# input_string = input("Enter a string: ")
+# if is_palindrome(input_string):
+#     print("Yes, it's a palindrome.")
+# else:
+#     print("No, it's not a palindrome.")
