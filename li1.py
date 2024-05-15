@@ -9,3 +9,9 @@ list1 = [5, 10, 15, 20, 25, 50, 20]
 index_20 = list1.index(20)
 list1[index_20] = 200
 print(list1)
+
+
+# Program to find the range (difference between the largest and smallest element) of a list of numbers
+numbers = [10, 5, 20, 15, 25]
+range_of_numbers = max(numbers) - min(numbers)
+print("Range of the list:", range_of_numbers)
