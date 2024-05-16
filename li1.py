@@ -15,3 +15,16 @@ print(list1)
 numbers = [10, 5, 20, 15, 25]
 range_of_numbers = max(numbers) - min(numbers)
 print("Range of the list:", range_of_numbers)
+
+# Finding the Range of a List of Numbers
+
+# Create a list of numbers
+num_list = [10, 5, 20, 15, 8]
+
+# Find the range (difference between the largest and smallest element)
+range_of_list = max(num_list) - min(num_list)
+
+# Print the range
+print("Range of the list:", range_of_list)
+
+
