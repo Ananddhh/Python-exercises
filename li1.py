@@ -42,3 +42,17 @@ element_count = Counter(random_list)
 # Print the frequency of each element
 for element, count in element_count.items():
     print(f"Element {element} appears {count} times.")
+
+
+#  Inserting an Element at a Specific Position in a List of Numbers
+
+# Create a list of numbers
+num_list = [10, 20, 30, 40, 50]
+
+# Insert a new element (e.g., 25) at a specific position (e.g., index 2)
+new_element = 25
+position = 2
+num_list.insert(position, new_element)
+
+# Print the updated list
+print("Updated list after insertion:", num_list)
