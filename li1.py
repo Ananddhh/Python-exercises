@@ -28,3 +28,17 @@ range_of_list = max(num_list) - min(num_list)
 print("Range of the list:", range_of_list)
 
 
+# Counting the Frequency of Elements in a List of Random Numbers
+
+from collections import Counter
+import random
+
+# Create a list of random numbers
+random_list = [random.randint(1, 10) for _ in range(20)]
+
+# Count the frequency of each element
+element_count = Counter(random_list)
+
+# Print the frequency of each element
+for element, count in element_count.items():
+    print(f"Element {element} appears {count} times.")
