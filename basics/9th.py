@@ -30,3 +30,8 @@ print(type(mylist))
 
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
+
+# Print the second item of the list:
+
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
