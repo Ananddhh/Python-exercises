@@ -31,3 +31,22 @@ print(txt)
 price = 59
 txt = f"The price is {price} dollars"
 print(txt)
+
+# Display the price with 2 decimals:
+
+price = 59
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+
+# Perform a math operation in the placeholder, and return the result:
+
+txt = f"The price is {20 * 59} dollars"
+print(txt)
+
+# You will get an error if you use double quotes inside a string that is surrounded by double quotes:
+
+txt = "We are the so-called "Vikings" from the north."
+
+The escape character allows you to use double quotes when you normally would not be allowed:
+
+txt = "We are the so-called \"Vikings\" from the north."
