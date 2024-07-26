@@ -38,3 +38,7 @@ newlist = [x.upper() for x in fruits]
 # Set all values in the new list to 'hello':
 
 newlist = ['hello' for x in fruits]
+
+# Return "orange" instead of "banana":
+
+newlist = [x if x != "banana" else "orange" for x in fruits]
