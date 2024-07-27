@@ -42,3 +42,9 @@ newlist = ['hello' for x in fruits]
 # Return "orange" instead of "banana":
 
 newlist = [x if x != "banana" else "orange" for x in fruits]
+
+# Sort the list alphabetically:
+
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort()
+print(thislist)
