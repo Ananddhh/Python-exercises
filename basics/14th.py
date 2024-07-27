@@ -75,3 +75,9 @@ tuple1 = ("abc", 34, True, 40, "male")
 
 mytuple = ("apple", "banana", "cherry")
 print(type(mytuple))
+
+
+# Using the tuple() method to make a tuple:
+
+thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+print(thistuple)
