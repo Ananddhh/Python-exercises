@@ -21,3 +21,8 @@ for x in thisdict.values():
 
 for x in thisdict.keys():
   print(x)
+
+# Loop through both keys and values, by using the items() method:
+
+for x, y in thisdict.items():
+  print(x, y)
