@@ -55,3 +55,15 @@ myfamily = {
   "child2" : child2,
   "child3" : child3
 }
+
+# Print the name of child 2:
+
+print(myfamily["child2"]["name"])
+
+# Loop through the keys and values of all nested dictionaries:
+
+for x, obj in myfamily.items():
+  print(x)
+
+  for y in obj:
+    print(y + ':', obj[y])
