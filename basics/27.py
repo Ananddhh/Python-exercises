@@ -6,3 +6,19 @@ if x > 10:
     print("and also above 20!")
   else:
     print("but not above 20.")
+
+# if statements cannot be empty, but if you for some reason have an if statement with no content, put in the pass statement to avoid getting an error.
+
+
+a = 33
+b = 200
+
+if b > a:
+  pass
+
+
+
+a = 50
+b = 10
+if a > b:
+ print("Hello World")
