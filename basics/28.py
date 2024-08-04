@@ -31,3 +31,8 @@ for x in fruits:
   if x == "banana":
     continue
   print(x)
+
+# Using the range() function:
+
+for x in range(6):
+  print(x)
