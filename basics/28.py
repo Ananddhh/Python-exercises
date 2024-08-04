@@ -63,3 +63,15 @@ for x in range(6):
   print(x)
 else:
   print("Finally finished!")
+
+# Print each adjective for every fruit:
+
+adj = ["red", "big", "tasty"]
+fruits = ["apple", "banana", "cherry"]
+
+for x in adj:
+  for y in fruits:
+    print(x, y)
+
+for x in [0, 1, 2]:
+  pass
