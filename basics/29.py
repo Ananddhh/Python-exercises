@@ -69,3 +69,14 @@ my_function("Sweden")
 my_function("India")
 my_function()
 my_function("Brazil")
+
+# E.g. if you send a List as an argument, it will still be a List when it reaches the function:
+
+# Example
+def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
