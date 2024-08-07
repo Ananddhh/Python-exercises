@@ -27,3 +27,13 @@ def my_func(n):
 mydoubler = my_func(2)
 
 print(mydoubler(11))
+
+
+# or use the same function definition to make a function that always triples the number you send in:
+
+def myfunc(n):
+    return lambda a : a * n
+
+mytripler = myfunc(3)
+
+print(mytripler(11))
