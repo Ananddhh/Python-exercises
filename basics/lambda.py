@@ -17,3 +17,13 @@ print(x(5, 6))
 
 x = lambda a, b, c : a + b + c
 print(x(5, 6, 2))
+
+
+# use that function definiion to make a function that always doubles the number you send in :
+
+def my_func(n):
+    return lambda a : a * n
+
+mydoubler = my_func(2)
+
+print(mydoubler(11))
